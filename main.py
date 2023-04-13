@@ -64,4 +64,6 @@ for dog in dogs:
 
 a.sayName() # a is an instance of the Dog class
 Dog.saySpecies()
+Dog.saySpecies()
+Dog.saySpecies()
 Dog.sayName()
