@@ -46,12 +46,15 @@ class Dog:
     def sayName(self):
         print("My name is " + self.name)
 
+# Instantiate the Dog object
 a = Dog("Max", 5)
 print(type(Dog))
 print(type(a))
 
+# Access the instance attributes
 print(a.name)
 
+# Creating more instances
 b = Dog("Maxib", 5)
 c = Dog("Maxc", 5)
 
@@ -63,7 +66,6 @@ for dog in dogs:
     sayNameFn(dog)
 
 a.sayName() # a is an instance of the Dog class
-Dog.saySpecies()
-Dog.saySpecies()
+Dog.saySpecies() # Dog is the class itself
 Dog.saySpecies()
 Dog.sayName()
