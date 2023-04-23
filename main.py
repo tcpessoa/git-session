@@ -64,6 +64,7 @@ def sayNameFn(lst):
 dogs = [["Max", 5], ["Max", 5], ["Max", 5]]
 for dog in dogs:
     print('feature 01')
+    print('feature 02')
     sayNameFn(dog) # Output: My name is dog.name
 
 a.sayName() # a is an instance of the Dog class
