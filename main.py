@@ -69,4 +69,4 @@ for dog in dogs:
 
 a.sayName() # a is an instance of the Dog class
 Dog.saySpecies() # Dog is the class itself
-Dog.sayName()
+Dog.sayName() # This will throw an error
